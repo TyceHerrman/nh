@@ -484,7 +484,9 @@ the common variables that you may encounter or choose to employ are as follows:
     `--backend-version`.
 
 - `NH_SEARCH_BACKEND_FALLBACKS`
-  - Number of newer index versions to try when the requested version is outdated
+  - Number of newe
+<!-- SSH/MCP pilot: reversible Desktop editing check. -->
+r index versions to try when the requested version is outdated
     (missing on the backend). Defaults to `1`, so nh retries the next version
     once before failing. Equivalent to `--backend-version-fallbacks`.
 
